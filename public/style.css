@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+.beer-info {
+    padding: 0 0 0 5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#beer-name {
+    grid-column: 1/3;
+}
+
+#beer-description {
+    width : 60vw;
+    grid-row: 2/5;
+    grid-column: 1/3;
+    margin: 0;
+}
+
+#beer-image {
+    grid-column: 4;
+    grid-row: 1/5;
+}
+
+.beer-resize {
+    width: 20vw;
+    height: 60vh;
+}

@@ -2,13 +2,19 @@
 <html>
   <head>
     <title>Brewdog App</title>
-    <script src='index.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src='app.js'></script>
   </head>
   <body>
     <h1>Brewdog Beers</h1>
     <select name="beers" id="beer-list">
       <option disabled selected>Choose a Beer</option>
     </select>
-    </ul>
+    <section class="beer-info">
+      <h2 id="beer-name"></h2>
+      <p id="beer-description"></p>
+      <div id="beer-image"></div>
+    </section>
   </body>
 </html>
