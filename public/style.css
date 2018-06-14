@@ -1,5 +1,9 @@
-h1 {
+body {
+    background-color: skyblue;
     font-family: 'Cabin Sketch', cursive;
+}
+
+h1 {
     text-align: center;
     font-size: 40px;
 }
@@ -30,4 +34,13 @@ h1 {
 .beer-resize {
     width: 10vw;
     height: 50vh;
+}
+
+.center {
+    display: grid;
+    grid-auto-columns: 20%;
+}
+
+select {
+    grid-column: 3;
 }
